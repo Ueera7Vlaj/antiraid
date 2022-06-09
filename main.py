@@ -48,7 +48,7 @@ path_eljson2 = f"{path_utilities}/elJson2.json"
 path_download = f"{path_utilities}/download"
 
 THIS_FOLDER = path.dirname(path.abspath(__file__))
-emailfile=path.join(THIS_FOLDER,"800.json")
+emailfile=path.join(THIS_FOLDER,"110.json")
 dictlist=[]
 with open(emailfile) as f:
     dictlist = json.load(f)
