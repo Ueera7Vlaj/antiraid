@@ -307,7 +307,7 @@ def rebootss(args):
 @client.command()
 def reboot(args):
         if client.check(args, "admin"):
-        #	f=open("comid.txt","w").close()
+        #	#f=open("comid.txt","w").close()
         	#args.subClient.send_message(args.chatId,message="Restarting Bot")
         	os.execv(sys.executable, ['python'] + sys.argv)
 #@client.on_member_join_chat()
