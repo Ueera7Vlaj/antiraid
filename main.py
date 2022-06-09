@@ -78,13 +78,13 @@ res=jsonf.find({},{'_id': 0})
 for i in res:
 	y=i["sid"]
 	lis.append(y)
-key="9417fd96-0657-4cb1-b33d-cf6ec3352857"
-app_name="client9911"
+key="175ceffc-bb8c-449e-8424-3995a9106546"
+app_name="cli9911"
 def restarts():
     heroku_conn = heroku3.from_key(key)
     botapp= heroku_conn.apps()[app_name]
     botapp.restart()
-client=BotAmino(email="Loganpp2921@gmail.com", password="spamer123lodu")
+client=BotAmino(email="kaushikjais999@gmail.com", password="wolvrine")
 #client=BotAmino(sid=sidss)
 
 
