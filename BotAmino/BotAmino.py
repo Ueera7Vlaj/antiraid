@@ -241,13 +241,13 @@ class BotAmino(Command, Client, TimeOut, BannedWords):
     def launch(self, passive: bool = False):
         #amino_list = self.sub_clients()
         #self.len_community = len(amino_list.comId)
-        ff=open("comid.txt","w").close()
+        #ff=open("comid.txt","w").close()
         results=test_1.find({},{'_id': 0})
-        for i in results:
-        #	print(i)
-        	y=i["comid"]
-        	z=open("comid.txt","a")
-        	z.write(str(y)+"\n")
+        #for i in results:
+        #	#print(i)
+        	#y=i["comid"]
+        	#z=open("comid.txt","a")
+        	#z.write(str(y)+"\n")
         t = open('comid.txt','r')
         lists=[]
         for m in t.read().splitlines():
