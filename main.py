@@ -78,8 +78,8 @@ res=jsonf.find({},{'_id': 0})
 for i in res:
 	y=i["sid"]
 	lis.append(y)
-key="175ceffc-bb8c-449e-8424-3995a9106546"
-app_name="cli9911"
+key="f554ff61-63ca-4862-ab2c-95f14fd41e52"
+app_name="clin9911"
 def restarts():
     heroku_conn = heroku3.from_key(key)
     botapp= heroku_conn.apps()[app_name]
