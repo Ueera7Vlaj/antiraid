@@ -67,8 +67,8 @@ sidd=(file.read())
 WARNS=[]
 ANTI_SPAM = {}
 JOIN_LEAVE_DETECTOR ={}
-si=mongo["sid"]
-sit=si["sds"]
+si=mongo["sids"]
+sit=si["sdss"]
 ress=sit.find({},{'_id': 0})
 for i in ress:
 	sidss=i["sid"]
@@ -84,8 +84,8 @@ def restarts():
     heroku_conn = heroku3.from_key(key)
     botapp= heroku_conn.apps()[app_name]
     botapp.restart()
-client=BotAmino(email="kaushikjais999@gmail.com", password="wolvrine")
-#client=BotAmino(sid=sidss)
+#client=BotAmino(email="kaushikjais999@gmail.com", password="wolvrine")
+client=BotAmino(sid=sidss)
 
 
 
